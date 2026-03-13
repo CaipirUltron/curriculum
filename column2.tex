@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \cvsection{A Day of My Life}
+
+% % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% % \wheelchart{outer radius}{inner radius}{
+% % comma-separated list of value/text width/color/detail}
+% \wheelchart{1.5cm}{0.5cm}{%
+% 30/8em/accent!30/Bed time!,
+% 5/8em/accent!20/{Light gaming and reading\\},
+% 35/8em/accent!60/Work and study,
+% 25/8em/accent!30/Personal projects,
+% 5/8em/accent!50/Gym workout
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{My Life Philosophy}
+
+\begin{quote}
+``Great discoveries often lie not in finding new things, but in seeing familiar things in new ways.'' \hfill Alexander Fleming
+\end{quote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \cvsection{Most Proud of}
+
+% \cvachievement{\faTrophy}{Persistence}{to keep following the academic path, despite the challenges.}
+% \divider
+
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+% \divider
+
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Strengths}
+
+% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
+
+% The `ragged2e` document class option might cause automatic linebreaks between \cvtag to fail.
+% Either remove the ragged2e option; or 
+% add \LaTeXraggedright in the paragraph for these \cvtag
+{\LaTeXraggedright
+\cvtag{Highly motivated}
+% \cvtag{Hard-working}
+\cvtag{Focused}
+\cvtag{Analytical thinking}
+% \cvtag{First principles thinking}
+\par}
+
+\divider\smallskip
+
+\cvtag{Nonlinear Systems}
+\cvtag{Control Theory}
+\cvtag{Robotics}
+\cvtag{Autonomous Navigation}
+\cvtag{Safety-Critical Control}
+\cvtag{Multi-agent Systems}
+\cvtag{Software Development}
+% \divider
+\\
+\divider\smallskip
+\\
+\cvtag{Python}
+\cvtag{C \& C++}
+\cvtag{Linux}
+\cvtag{ROS2}
+\cvtag{MATLAB}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Languages}
+
+\cvskill{Portuguese}{5}
+\divider
+\cvskill{English}{5}
+% \divider
+
+% \cvskill{Japanese}{1.0} %% Supports X.5 values.
+
+%% Yeah I didn't spend too much time making all the
+%% spacing consistent... sorry. Use \smallskip, \medskip,
+%% \bigskip, \vspace etc to make adjustments.
+% \medskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+
+\cvevent{Ph.D. (Cum Laude) in Electrical and Computer Engineering}{Faculty of Engineering, University of Porto}{Sept 2018 - Ongoing}{Porto, Portugal}
+Thesis title: \href{https://repositorio-aberto.up.pt/handle/10216/168575}{"Advances in Lyapunov-Based Control for Multi-Robot Navigation and Safety-Critical Systems"}.
+Ph.D. Thesis examination: June 18 2025.
+
+\divider
+
+\cvevent{\href{http://www.eeci-igsc.eu/}{International Graduate School on Control 2025}}{Delft University of Technology}{02-06 June 2025}{Delft, Netherlands}
+Course: "Formal Methods for Multi-Agent Feedback Control Systems" by Lars Lindemann, USC and Dimos Dimarogonas, KTH.
+
+\divider
+
+\cvevent{M.Sc.\ in Electrical and Computer Engineering - Control, Robotics and Automation}{Federal University of Rio de Janeiro -- COPPE}{Jan 2016 - Aug 2018}{Rio de Janeiro, Brasil}
+Dissertation title: \href{https://pantheon.ufrj.br/bitstream/11422/11684/1/888971.pdf}{"Line-of-Sight Stabilization and Tracking Control for Inertial Platforms"}.
+
+% \divider
+\newpage 
+
+\cvevent{B.Sc.\ in Control Engineering}{Federal University of Rio de Janeiro}{Feb 2013 - Feb 2016}{Rio de Janeiro, Brasil}
+Undergraduate thesis title: \href{https://pantheon.ufrj.br/bitstream/11422/18198/1/monopoli10017301-min.pdf}{"Modeling and Control Design of a Multifingered Robot Hand for Object Grasping and Manipulation Tasks
+"}.
+
+% \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Referees}
+
+% \cvref{name}{email}{mailing address}
+\cvref{Ph.D.\ A. Pedro Aguiar, Full Professor}{pedro.aguiar@fe.up.pt}{Dept. of Electrical and Computer Engineering (DEEC)
+\vspace{-4mm}}{Faculty of Engineering, University of Porto}
+
+\divider
+
+\cvref{Ph.D.\ Ramon R. Costa, Associate Professor}{ramon@coep.ufrj.br}{Dept. of Electrical Engineering, COPPE/UFRJ}
+{Technology Center of the Federal University of Rio de Janeiro, Control Laboratory, Room H-345}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Presentations}
+
+\cvevent{Presenter of "\textit{Safe Autonomous Multi-Vehicle Navigation using Path Following Control and Spline-based Barrier Functions}"}{6th Iberian Robotics Conference - ROBOT2023}{November 2023}{Costa de Caparica, Portugal}
+
+\cvevent{Presenter of "\textit{Cooperative Path Following with Collision Avoidance Guarantees using Control Lyapunov and Barrier Functions}".}{15th APCA International Conference on Automatic Control and Soft Computing - CONTROLO2022}{July 2022}{Coimbra, Portugal}
+
+\cvevent{Co-chair of the Invited Session on "\textit{Theory and Applications of Control Barrier Functions}" and presenter of "\textit{Control Barrier Function-Based Quadratic Programs Introduce Undesirable Asymptotically Stable Equilibria}"}{59th Conference on Decision and Control - CDC2020}{December 2020}{Online}
+
+\cvevent{Presenter of "\textit{Dynamic Model and Line of Sight Control of a 3-DOF Inertial Stabilization Platform via Feedback Linearization}"}{2018 American Control Conference}{June 2018}{Milwaukee, USA}
+
+\cvevent{Presenter of  "\textit{Kinematic modeling and control design of a multifingered robot hand}"}{24th International Symposium on Industrial Electronics}{May 2015}{Búzios, Brazil}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Grants \& Awards}
+
+\cvevent{Winner of the 1st prize on \href{https://github.com/C2SR/njord_challenge}{Njord Challenge 2021} - The Autonomous Ship Challenge.}{Lead software developer in the Atlantics team.}{2021}{Porto, Portugal}
+
+\cvevent{FCT PhD Studentship Grant 2020.06795.BD}{"Advances in Learning and Control Theory for Safety Critical Multi-Robot Systems"}{2020-2024}{Porto, Portugal}
+
+\cvevent{Student Travel Support offered by Control Systems Society (CSS), for attending the 54th Annual Conference on Decision and Control}{Presentation of the work ``\textit{Modeling and Control of a Multifingered Robot Hand for Object Grasping and Manipulation Tasks}''}{2015}{Osaka, Japan}
+
+\cvevent{Student Travel Scholarship offered by Industrial Electronics Society (IES) for attending the 24th International Symposium on Industrial Electronics}{Presentation of the work ``\textit{Kinematic modeling and control design of a multifingered robot hand}''}{2015}{Rio de Janeiro, Brasil}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Academic Orientation}
+
+\cvevent{Advisor of Pedro Alexandre Mendes Lopes - Project UP2Speed - from FEUP.}{Master Dissertation: "\textit{Formal methods for collision avoidance of autonomous racing vehicles}"}{2025}{Porto, Portugal}
+
+\cvevent{Co-advisor of Francisco Neves, from FEUP.}{\href{https://repositorio-aberto.up.pt/handle/10216/133320}{Master Dissertation: "\textit{Reinforcement Learning for Robotic Navigation in Obstacle Scattered Environments}"}}{2021}{Porto, Portugal}
+
+\cvevent{Co-advisor of Anuj Regmi, from the Polytechnic University of Turin.}{\href{https://webthesis.biblio.polito.it/11495/1/tesi.pdf}{Master Dissertation: "\textit{Modelling and Control of Unmanned Aerial Vehicles}"}}{2019}{Porto, Portugal}
+
+\vfill
+
+\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Preprints}},type=misc]
