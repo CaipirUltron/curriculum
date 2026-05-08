@@ -36,3 +36,20 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+# Additional LaTeX build outputs and helpers
+# minted package cache
+_minted-*/
+
+# Common build/output dirs
+build/
+out/
+dist/
+
+# More intermediate files
+*.idx
+*.ind
+*.ilg
+*.ps
+*.dvi
+*.synctex
