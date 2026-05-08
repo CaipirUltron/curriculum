@@ -17,7 +17,7 @@ Currently, I work as a **Robotics Engineer** at [OceanScan-MST](https://www.ocea
 
 ## 📚 Education
 
-- **Ph.D. in Electrical and Computer Engineering** (Cum Laude) — University of Porto, 2018-2025  
+- **Ph.D. in Electrical and Computer Engineering** (Cum Laude) — University of Porto, 2019-2024  
   *Thesis: "Advances in Lyapunov-Based Control for Multi-Robot Navigation and Safety-Critical Systems"*
 
 - **M.Sc. in Control, Robotics and Automation** — Federal University of Rio de Janeiro (COPPE), 2016-2018  
