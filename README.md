@@ -30,34 +30,25 @@ Currently, I work as a **Robotics Engineer** at [OceanScan-MST](https://www.ocea
 - **GitHub**: [@CaipirUltron](https://github.com/CaipirUltron)
 - **LinkedIn**: [matheusfreis](https://linkedin.com/in/matheusfreis)
 - **ORCID**: [0000-0001-9958-5958](https://orcid.org/0000-0001-9958-5958)
-- **Email**: mreis@oceanscan-mst.com | matheus.reis@fe.up.pt
+- **Email**: <matheus.ferreira.reis@gmail.com> | <matheus.reis@fe.up.pt>
 
 ## 📖 Compilation
 
-To compile the CV to PDF, you need LaTeX installed with the following packages:
-- `fontawesome5` (≥ v5.12.0)
-- `simpleicons` (≥ v9.9.0)
-- `paracol`
+**Requirements:** LaTeX with `fontawesome5`, `simpleicons`, and `paracol` packages.
 
-### Using pdflatex (with bibliography):
+**Quick build:**
+
 ```bash
-pdflatex cv.tex
-biber cv
-pdflatex cv.tex
-pdflatex cv.tex
+make
 ```
 
-Or use the provided `latexmkrc`:
-```bash
-latexmk -pdf cv.tex
-```
+**Available targets:**
 
-### Using XeLaTeX:
-```bash
-xelatex -shell-escape -output-driver="xdvipdfmx -z 0" cv.tex
-biber cv
-xelatex -shell-escape -output-driver="xdvipdfmx -z 0" cv.tex
-```
+- `make` or `make pdf` — Build `cv.pdf`
+- `make clean` — Remove auxiliary files
+- `make view` — Open PDF viewer
+
+The Makefile uses `latexmk` with the provided `latexmkrc` configuration.
 
 ## 📁 Repository Structure
 
